@@ -36,7 +36,7 @@ namespace Test3
                 Id = 2,
                 FirstName = "Student",
                 LastName = "Two",
-                IsRegistered = true
+                IsRegistered = false
             });
             students.Add(new Student()
             {
@@ -47,8 +47,6 @@ namespace Test3
             });
 
             dgStudent.ItemsSource = students;
-
-            MessageBox.Show("I have no idea why my datagrid isn't populated with values");
         }
     }
 }

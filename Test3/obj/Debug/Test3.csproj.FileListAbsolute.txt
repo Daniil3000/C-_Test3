@@ -19,5 +19,3 @@ C:\Users\megas\source\repos\Test3\Test3\obj\Debug\GridStudent.g.cs
 C:\Users\megas\source\repos\Test3\Test3\obj\Debug\GridStudent.baml
 C:\Users\megas\source\repos\Test3\Test3\obj\Debug\NumbersOver80.g.cs
 C:\Users\megas\source\repos\Test3\Test3\obj\Debug\NumbersOver80.baml
-C:\Users\megas\source\repos\Test3\Test3\obj\Debug\testGrid.g.cs
-C:\Users\megas\source\repos\Test3\Test3\obj\Debug\testGrid.baml

@@ -8,11 +8,7 @@
         Title="GridStudent" Height="450" Width="800">
     <Grid>
         <DataGrid Height="200" Width="500" x:Name="dgStudent">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Id" Binding="{Binding Id}"></DataGridTextColumn>
-                <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}"></DataGridTextColumn>
-                <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}"></DataGridTextColumn>
-            </DataGrid.Columns>
+            
         </DataGrid>
     </Grid>
 </Window>

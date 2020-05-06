@@ -1,0 +1,25 @@
+﻿<Window x:Class="Test3.AddStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test3"
+        mc:Ignorable="d"
+        Title="AddStudent" Height="450" Width="800">
+    <StackPanel Margin="10">
+        <WrapPanel>
+            <Label Content="Id"></Label>
+            <TextBox x:Name="txtId" Width="200"></TextBox>
+        </WrapPanel>
+        <WrapPanel>
+            <Label Content="First Name"></Label>
+            <TextBox x:Name="txtFirstName" Width="200"></TextBox>
+        </WrapPanel>
+        <WrapPanel>
+            <Label Content="Larst Name"></Label>
+            <TextBox x:Name="txtLarstName" Width="200"></TextBox>
+        </WrapPanel>
+        <CheckBox x:Name="cbIsRegistered" Content="Is Registered"></CheckBox>
+        <Button x:Name="btnSaveStudent" Content="Save Student" Click="btnSaveStudent_Click" Width="200" HorizontalAlignment="Left"></Button>
+    </StackPanel>
+</Window>

@@ -1,0 +1,8 @@
+4. In code-first approach developer first creates entities in code and then Entity API converts
+them and generates database. While in database-first approach first database is created and Entity
+Framework converts in into dbContext and tables into entities. In both cases entities and
+dbContext connected to database.
+
+5.Model-View-View Model is a design pattern that separates GUI from business logic. Model is 
+basically all our objects, ViewModel is responsible for converting data objects and showing them 
+in the View.
